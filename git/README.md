@@ -68,3 +68,67 @@ $ git config --global core.editor 'vim -c "set fenc=utf-8"'
 ```
 $ git config --list
 ```
+
+## Gitを使ってみよう
+1. 適当なディレクトリを作りましょう
+```
+$ mkdir Workspace
+```
+1. 適当なファイルを作りましょう
+```
+$ echo "# hoge" >> README.md
+```
+1. git管理下においてみましょう
+```
+$ git add Workprace/README.md
+```
+1. 変更の履歴を残しましょう
+```
+$ git commit -m 'first commit'
+```
+
+## Gitのここが便利
+- 歴史を遡ることができる
+```
+$ git log
+commit 93fa8802d2d24ddbacac73398ba33cec8f50cebe (HEAD -> master, origin/master)
+Author: Tomosugi Tasaka <tuvy.ano@gmail.com>
+Date:   Sun Apr 15 18:59:25 2018 +0900
+
+    fix
+
+commit 777dff92285ca81e994c8ab3daacbffb93243389
+Author: Tomosugi Tasaka <tuvy.ano@gmail.com>
+Date:   Sun Apr 15 18:55:54 2018 +0900
+
+    first commit
+```
+コミットにはそれぞれチェックサムが振られていて、指定したコミットに戻ることができる
+```
+$ git checkout 777dff92285ca81e994c8ab3daacbffb93243389
+```
+
+- やっぱ元に戻したい(コミットする前)
+```
+$ git checkout {ファイル名}
+```
+
+- やっぱ元に戻した(コミットした後)
+```
+$ git reset --hard HEAD^
+```
+
+- 前ってどう書いてあったっけ？差分をみたい
+```
+$ git diff
+```
+
+## よく使うコマンド一覧
+- ``git init``
+- ``git status``
+- ``git add``
+- ``git commit``
+- ``git push``
+- ``git pull``
+- ``git branch``
+- ``git log``
