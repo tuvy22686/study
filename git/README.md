@@ -1,8 +1,7 @@
-# README
-## Git勉強会
+# Git勉強会
 - 2018/4/17
 
-### はじめに
+## はじめに
 gitをインストールしましょう
 - Macの人
     1. ``homebrew``のインストール  
@@ -41,7 +40,7 @@ gitをインストールしましょう
     $ git --version
     ```
 
-### 設定
+## 設定
 こっからはおそらく、windowsもmacも同じ
 - 参考資料
     - [Gitをインストールしたら真っ先にやっておくべき初期設定](https://qiita.com/wnoguchi/items/f7358a227dfe2640cce3)
