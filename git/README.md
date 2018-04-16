@@ -10,32 +10,32 @@ gitをインストールしよう
     ```
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
-    1. ``homebrew``がちゃんと入ってるか確認
+    2. ``homebrew``がちゃんと入ってるか確認
     ```
     $ brew doctor
     Your system is ready to brew.
     ```
-    1. ``git``のインストール
+    3. ``git``のインストール
     ```
     $ brew install git
     ```
-    1. アップデート
+    4. アップデート
     ```
     $ brew update && brew upgrade
     ```
-    1. ``git``がインストールされているか確認する
+    5. ``git``がインストールされているか確認する
     ```
-    $ git --version
+    6 git --version
     ```
 
 - Windowsの人
     1. bashがいいよねってことで、[``WSL(Windows Subsystem for Linux)``を入れる](http://www.atmarkit.co.jp/ait/articles/1608/08/news039.html)  
     旧: ``Bash on Ubuntu``ベータ版が正式にリリースされたっぽい。すばら
-    1. アップデート
+    2. アップデート
     ```
     $ sudo apt-get update && sudo apt-get upgrade
     ```
-    1. ``git``がインストールされているか確認する
+    3. ``git``がインストールされているか確認する
     ```
     $ git --version
     ```
@@ -74,15 +74,15 @@ $ git config --list
 ```
 $ mkdir Workspace
 ```
-1. 適当なファイルを作りましょう
+2. 適当なファイルを作りましょう
 ```
 $ echo "# hoge" >> README.md
 ```
-1. git管理下においてみましょう
+3. git管理下においてみましょう
 ```
 $ git add Workprace/README.md
 ```
-1. 変更の履歴を残しましょう
+4. 変更の履歴を残しましょう
 ```
 $ git commit -m 'first commit'
 ```
