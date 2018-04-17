@@ -1,6 +1,10 @@
 # Git
 - 2018/4/17
 - oybn
+- TakuyaNiimura
+- Niimura
+- tuvy
+- mia
 
 ## セットアップ
 gitをインストールしよう
