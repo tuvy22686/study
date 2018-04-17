@@ -1,5 +1,6 @@
 # Git
 - 2018/4/17
+- WestKazuki24
 - oybn
 - TakuyaNiimura
 - Niimura
