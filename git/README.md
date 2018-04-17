@@ -1,4 +1,4 @@
-t# Git
+# Git
 - 2018/4/17
 - oybn
 
@@ -181,7 +181,3 @@ $ git reset --hard HEAD^
 - ``git pull``
 - ``git branch``
 - ``git log``
-
-
-
-oybnが変更を加えました。
