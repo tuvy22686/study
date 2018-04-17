@@ -1,6 +1,10 @@
 # Git
 - 2018/4/17
+- TakuyaNiimura
 - Niimura
+- tuvy
+- mia
+
 ## セットアップ
 gitをインストールしよう
 - Macの人
