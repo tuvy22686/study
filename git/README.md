@@ -1,5 +1,6 @@
-# Git
+t# Git
 - 2018/4/17
+- oybn
 
 ## セットアップ
 gitをインストールしよう
@@ -180,3 +181,7 @@ $ git reset --hard HEAD^
 - ``git pull``
 - ``git branch``
 - ``git log``
+
+
+
+oybnが変更を加えました。
