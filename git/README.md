@@ -1,6 +1,16 @@
 # Git
 - 2018/4/17
+<<<<<<< HEAD
 - matsuda
+=======
+- WestKazuki24
+- oybn
+- TakuyaNiimura
+- Niimura
+- tuvy
+- mia
+
+>>>>>>> master
 ## セットアップ
 gitをインストールしよう
 - Macの人
