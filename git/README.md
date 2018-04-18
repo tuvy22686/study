@@ -94,13 +94,30 @@ $ mkdir Workspace
 ```
 $ echo "# hoge" >> README.md
 ```
-3. git管理下においてみましょう
+3. Workspaceをgit管理下においてみましょう
 ```
-$ git add Workprace/README.md
+$ git init
 ```
-4. 変更の履歴を残しましょう
+上記のコマンドを入力することで、``Workspace/.git``が作成されます。``.git``は変更履歴などを保持します  
+``.git``は変更履歴を保存する入れ物のようなものなので、``.git``を作成するコマンド``git init``は一つのプロジェクトに対して一度しか使いません
+4. 変更した``git/README.md``をstageに上げましょう
+stageにあげるという作業は、特定の変更したファイルを登録するという作業になります。登録されたファイルだけ履歴として残すことができます
+```
+$ git add git/README.md
+```
+5. 変更の履歴を残しましょう
+stageに上がったファイルを履歴として残しましょう。その作業のことをコミットすると言います
 ```
 $ git commit -m 'first commit'
+```
+6. 履歴として残ったか確認
+```
+$ git log
+commit 777dff92285ca81e994c8ab3daacbffb93243389
+Author: Tomosugi Tasaka <tuvy.ano@gmail.com>
+Date:   Sun Apr 15 18:55:54 2018 +0900
+
+    first commit
 ```
 
 ## Gitのここが便利
