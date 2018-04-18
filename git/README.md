@@ -1,7 +1,13 @@
 # Git
 - 2018/4/17
+- matsuda
+- WestKazuki24
+- oybn
+- TakuyaNiimura
 - Niimura
 - Yeah
+- tuvy
+- mia
 ## セットアップ
 gitをインストールしよう
 - Macの人
@@ -88,13 +94,32 @@ $ mkdir Workspace
 ```
 $ echo "# hoge" >> README.md
 ```
-3. git管理下においてみましょう
+3. Workspaceをgit管理下においてみましょう  
+``Workspace/.git``を作成します。``.git``は変更履歴などを保持します  
+``.git``は変更履歴を保存する入れ物のようなものなので、``.git``を作成するコマンド``git init``は一つのプロジェクトに対して一度しか使いません  
 ```
-$ git add Workprace/README.md
+$ git init
+$ ls -a
+.   ..  .git README.md
 ```
-4. 変更の履歴を残しましょう
+4. 変更した``README.md``をstageに上げましょう  
+stageにあげるという作業は、特定の変更したファイルを登録するという作業になります。登録されたファイルだけ履歴として残すことができます
+```
+$ git add README.md
+```
+5. 変更の履歴を残しましょう
+stageに上がったファイルを履歴として残しましょう。その作業のことをコミットすると言います
 ```
 $ git commit -m 'first commit'
+```
+6. 履歴として残ったか確認
+```
+$ git log
+commit 777dff92285ca81e994c8ab3daacbffb93243389
+Author: Tomosugi Tasaka <tuvy.ano@gmail.com>
+Date:   Sun Apr 15 18:55:54 2018 +0900
+
+    first commit
 ```
 
 ## Gitのここが便利
