@@ -123,7 +123,8 @@ Date:   Sun Apr 15 18:55:54 2018 +0900
 ```
 
 ## Gitのここが便利
-- 歴史を遡ることができる
+- 歴史を遡ることができる  
+次のコマンドは今までのコミットを確認することができる  
 ```
 $ git log
 commit 93fa8802d2d24ddbacac73398ba33cec8f50cebe (HEAD -> master, origin/master)
@@ -158,7 +159,7 @@ $ git reset --hard HEAD^
 $ git diff
 ```
 
-## Git事故例
+## Git事故
 - コミットメッセージ間違えた！
 ```
 $ git commit --amend
