@@ -5,9 +5,9 @@
 - oybn
 - TakuyaNiimura
 - Niimura
+- Yeah
 - tuvy
 - mia
-
 ## セットアップ
 gitをインストールしよう
 - Macの人
