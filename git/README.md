@@ -8,6 +8,9 @@
 - Yeah
 - tuvy
 - mia
+
+-2018/4/23
+-WestKazuki24
 ## セットアップ
 gitをインストールしよう
 - Macの人
