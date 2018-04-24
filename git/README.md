@@ -155,9 +155,18 @@ $ git reset --hard HEAD^
 ```
 
 - 前ってどう書いてあったっけ？差分をみたい
-```
-$ git diff
-```
+    - ブランチ
+    ```
+    $ git diff {branch名} {branch名}
+    ```
+    - コミット
+    ```
+    $ git diff {commit id} {commit id}
+    ```
+    - ステージ
+    ```
+    $ git diff --cached
+    ```
 
 ## Git事故
 - コミットメッセージ間違えた！
