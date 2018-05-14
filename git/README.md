@@ -36,7 +36,7 @@ gitをインストールしよう
     ```
     5. ``git``がインストールされているか確認する
     ```
-    6 git --version
+    $ git --version
     ```
 
 - Windowsの人
