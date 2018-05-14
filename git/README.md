@@ -42,11 +42,13 @@ gitをインストールしよう
 - Windowsの人
     1. bashがいいよねってことで、[``WSL(Windows Subsystem for Linux)``を入れる](http://www.atmarkit.co.jp/ait/articles/1608/08/news039.html)  
     旧: ``Bash on Ubuntu``ベータ版が正式にリリースされたっぽい。すばら
-    2. アップデート
+    2. コマンドプロンプトを開く
+    3. ``bash``コマンドを叩く
+    4. アップデート
     ```
     $ sudo apt-get update && sudo apt-get upgrade
     ```
-    3. ``git``がインストールされているか確認する
+    5. ``git``がインストールされているか確認する
     ```
     $ git --version
     ```
