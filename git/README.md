@@ -1,17 +1,20 @@
 # Git
+
+## 投稿者
 - 2018/4/17
-- matsuda
-- WestKazuki24
-- oybn
-- TakuyaNiimura
-- Niimura
-- Yeah
-- tuvy
-- mia
+    - matsuda
+    - WestKazuki24
+    - oybn
+    - TakuyaNiimura
+    - Niimura
+    - Yeah
+    - tuvy
+    - mia
 
 - 2018/4/23
 	- WestKazuki24
 	- hoge
+
 ## セットアップ
 gitをインストールしよう
 - Macの人
