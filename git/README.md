@@ -1,6 +1,6 @@
 # Git
 
-## Contoributors
+## 投稿者
 - 2018/4/17
     - matsuda
     - WestKazuki24
